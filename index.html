@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--------------------- CSS -------------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> 
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+
+    <!-- <link rel="stylesheet" href="css/jquery-ui.css"> -->
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/media.css">
+    <!--------------------- CSS -------------------->
+    <title>Jquery Plugin</title>
+  </head>
+  <body>
+    
+   
+    <section class="slider-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-2">
+                    <div class="slider-demo">
+                        <img src="images/slider.jpeg" alt="n0-img">
+                        <img src="images/slider1.jpeg" alt="n0-img">
+                        <img src="images/slider2.jpg" alt="n0-img">
+                        <img src="images/slider.jpeg" alt="n0-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------ jQuery ------------------------>
+    
+    <script src="js/jquery.min-for-counter.js"></script>
+
+    <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <!-- <script src="js/jquery-ui.js"></script> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/slick.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('.slider-demo').slick({
+              infinite: true,
+              slidesToShow: 3,
+              slidesToScroll: 3
+            });
+        });
+    </script>
+
+
+    <!------------------ jQuery ------------------------>
+  </body>
+</html>
